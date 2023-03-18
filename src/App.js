@@ -22,7 +22,7 @@ function App() {
   const [cafes, setCafes] = useState([]) 
 
   const aoNovoCafeAdicionado = (cafe) => {
-    debugger
+   //debugger
     console.log(cafe)
     setCafes([...cafes, cafe])
   }
@@ -31,15 +31,15 @@ function App() {
     <div className="App">                                                                                         {/* JSX */}
       <Banner />                                                                                                  {/* JSX */}
       <Formulario times={times.map(tipo => tipo.nome)} aoCafeCadastrado={cafe => aoNovoCafeAdicionado(cafe)} />   {/* JSX */}
-    
-
-    {times.map(time => <Time                                                                                       // JS
-        key={time.nome}                                                                                            // JS
-        nome={time.nome}                                                                                           // JS
-        corPrimaria={time.corPrimaria}                                                                             // JS
-        corSecundaria={time.corSecundaria}                                                                         // JS
-        cafes={cafes.filter(cafe => cafe.tipo == time.nome)} />)}                                                {/* JSX */}
-        <Rodape />
+        {times.map(time => 
+        <Time                                                                                       // JS
+            key={time.nome}                                                                                            // JS
+            nome={time.nome}                                                                                           // JS
+            corPrimaria={time.corPrimaria}                                                                             // JS
+            corSecundaria={time.corSecundaria}                                                                         // JS
+            cafes={cafes.filter(cafe => cafe.tipo == time.nome)} 
+        />)}                                                {/* JSX */}
+      <Rodape />
     </div> 
   );
 }
