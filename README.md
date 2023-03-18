@@ -6,7 +6,7 @@ Cadastra e mostra a apresentação dos cafés
 | -------------  | --- |
 | :sparkles: Nome        | **CoffeShop**
 | :label: Tecnologias | react, html, css, javascript
-| :rocket: URL         | https://url-deploy.com.br
+| :rocket: URL         | https://coffee-shop-ketlen.vercel.app/
 | :fire: Curso     | https://cursos.alura.com.br/course/react-desenvolvendo-javascript
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
