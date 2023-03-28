@@ -4,7 +4,7 @@ Cadastra e mostra a apresentação dos cafés
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **CoffeShop**
+| :sparkles: Nome        | **CoffeeShop**
 | :label: Tecnologias | react, html, css, javascript
 | :rocket: URL         | https://coffee-shop-ketlen.vercel.app/
 | :fire: Curso     | https://cursos.alura.com.br/course/react-desenvolvendo-javascript
